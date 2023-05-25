@@ -1,0 +1,10 @@
+<?php
+$number= 5;
+
+echo "Multiplication of $number is:\n";
+
+for ($i = 1; $i <= 10; $i++) {
+    $result= $number * $i;
+    echo "$number * $i= $result\n";
+}
+?>
